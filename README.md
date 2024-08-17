@@ -1,4 +1,2 @@
-# Examen 3 Cristian Funes
-
-1. Aleks Xavier Pineda Macias - 202110060173
+# Examen3 Cristian Josue Funes Calderiny 202110010276
 
