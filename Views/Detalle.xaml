@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PM2E3ALEKS.Views.Detalle"
+             BackgroundColor ="MidnightBlue"
+             Title="Detalle Nota - Aleks Pineda">
+
+    <StackLayout Spacing="15" Padding="25,100,25,0" >
+
+        <Label x:Name="lblDescripcion" 
+               Text="{Binding Descripcion}"
+               HeightRequest="150" 
+               BackgroundColor="white"/>
+
+
+        <Button 
+            Text="Ver Imagen"
+            BackgroundColor="SkyBlue"
+            Clicked="OnBtnPictureClicked"/>
+
+
+        <Button 
+            Text="Reproducir Audio"
+            x:Name="btnPlay"
+            BackgroundColor="SkyBlue"
+            Clicked="OnBtnPlayClicked"/>
+
+
+        <Button 
+            Text="Actualizar"
+            BackgroundColor="SkyBlue"
+            Clicked="OnBtnEditClicked"/>
+
+
+        <Button 
+            Text="Eliminar"
+            BackgroundColor="SkyBlue"
+            Clicked="OnBtnDeleteClicked"/>
+
+
+    </StackLayout>
+</ContentPage>
